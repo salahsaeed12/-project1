@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home{
+
+    background-image: url(../images/sala.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: auto;
+    text-align: center;
+  
+}
+.home-header{
+    background-color: gray; 
+     width: 100%;
+     height: 50px;
+     position: fixed;
+     z-index: 999;
+ }
+.home-layer{
+    background-color: rgb(0, 0, 0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* width: 100%;
+    height: 100%; */
+
+}
+.list1{
+    float: right;
+     
+}
+
+.list1 li{
+    display:inline-block ;
+    margin: 15px 50px 40px 20px;
+}
+.list1 a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.clr{
+    clear: both;
+}
+h1{
+    color:rgb(147, 34, 34) ;
+    padding: 10px 10px 20px 20px;
+    float: left;
+}
+.home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(74, 72, 72);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.home-content p{
+    color:rgb(123, 118, 118);
+    font-size: 26px;
+    word-spacing:4px;
+    letter-spacing: 4px;
+}
+.home-content h2{
+    color:rgb(147, 34, 34)  ;
+    font-size: 33;
+}
+/*       the end of homesction       */
+/* start of about section */
+.container{
+    width: 80%;
+    margin: auto;
+    /* overflow: auto; */
+  }
+.about{
+    /* background-color: red */
+    overflow: auto;
+}  
+
+.section{
+    padding: 70px 0px;
+}
+.about-img{
+    width: 35%;
+    float: left;
+}
+.about-img .img-border img{
+    width: 100%;
+}
+.img-border{
+    border: 12px solid ;
+    border-radius: 6px;
+  
+}
+ .img{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+    
+}
+.img-layer{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgb(0, 0, 0,0.5);
+
+    transition: 1s all;
+}
+.i4{
+    color:white;
+   
+    font-size: 30px;
+    text-align: center center;
+    line-height: 40px;
+}
+.img-layer a{
+    text-align: center;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+}
+.img:hover .img-layer{
+    top: 0;
+}
+ .about .about-content{
+    margin-left:5%;
+    width: 60%;
+    float: left;
+   
+    /* background-color:blue; */
+    
+   
+}
+.list2{
+     float: left; 
+    margin: 30px;
+    list-style-type: none;
+    font-size: 26px;
+}
+.list3{
+    float: right;
+    margin: 30px;
+    list-style-type: none;
+    font-size: 26px;
+}
+.about-content p ,h2{
+    padding: 0px 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.about-content p {
+    font-size: 18px;
+    color: rgb(41, 36, 36);
+}
+.btn1{
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border:none;
+    width: 180px;
+    border-radius: 10px;
+    background-color: brown;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btn2{
+    border: none;
+    width: 180px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: brown;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btn1:hover{
+    background-color: orangered;
+}
+.btn2:hover{
+    background-color: orangered;
+}
+.i1{
+    font-size:25px;
+    color: white;
+}
+/* the end of section about  */
+
+
+/* start of section our services */
+.our-servcies{
+    background-color: rgb(167, 164, 164);
+}
+ .head1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    word-spacing: 2px;
+}
+.div1 i{
+    /* width: 30px;
+    height: 30px; */
+    /* background-color: black;
+    border-radius: 4px;
+    margin:20px auto ; */
+    font-size: 45px;
+    color: rgb(219, 62, 99);
+    margin: 20px;
+    
+}
+.serives1{
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding:0px 20px;
+    position: relative;
+
+}
+.serives1:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+/* .serives1:hover .div1{
+    transform: scale(1.5);
+} */
+.serives1 h3{
+ margin-bottom: 10px;   
+ font-size: 24px
+}
+
+.serives1::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 2s;
+}
+.serives1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .1;
+}
+/* the end of  this section  */
+
+
+
+/* start of section Contact  Us */
+/* end of section Contact  Us */
+
+ /* start of team  */
+ .team-tittle{
+    text-align: center;
+    font-size:40px;
+    margin: 20px 0px 5px 0px;
+    text-transform: capitalize;
+ }
+ .line{
+    width: 70px;
+    
+    margin: -5px  auto;
+    border-top: 2px solid #b34655;
+
+
+ }
+ .line2{
+    width: 150px;
+    border-top: 2px solid #b34655;
+    margin: -5px  auto;
+ }
+ .team-content{
+    overflow: auto;
+    /* background-color: aqua; */
+    padding: 15px 17px;
+    /* position: relative; */
+ }
+.team-item{
+    width: 30%;
+    float: left;
+    position: relative;
+    /* background-color: rgb(13, 184, 36); */
+    /* padding: 14px 17px; */
+
+}
+.div2{
+    margin: 0px 5%;
+}
+.team-img{
+    position: relative;
+    text-align: center;
+    margin: auto;
+   
+}
+.team-item img{
+    width: 100%;
+}
+.team-icons{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.4);
+    opacity: 0;
+}
+.team-item:hover .team-icons{
+    opacity: 1;
+}
+.team-icons a{
+    display:block ;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+
+}
+.team-icons i{
+    font-size: 28px;
+    line-height: 40px;
+    color: white;
+  
+}
+.team-info{
+    margin: 10px;;
+
+    text-align: center;
+}
+.team-info h2{
+    text-transform: capitalize;
+}
+.team-info p{
+    margin-top: 20px;
+    color: rgb(88, 87, 87);
+    text-transform: uppercase;
+    word-spacing: 2px;
+    
+}
+.team-item:hover h2{
+    color:gray;
+}
+.team-item:hover p{
+    color: rgb(29, 103, 182);
+  
+}
+.team-item::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 2s;
+}
+
+.team-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+
+}
+ /*  end of team*/
+
+ /* start of contact us  */
+ .contact-tittle h2{
+    text-align: center;
+    margin-bottom: 10px;
+   
+ }
+.ipn1{
+width: 80%;
+padding: 0px 10px;
+text-transform: capitalize;
+height: 50px;
+margin: 0px 10% 20px;
+/* margin-bottom: 20px; */
+/* border: 1px solid rgba(156, 5, 5, 0.608); */
+background-color: rgb(162, 159, 159);
+border: none;
+border-radius: 8px;
+
+}
+
+.contact-form textarea{
+width: 80%;
+margin: 0px 10% 0px;
+border-radius: 8px;
+border: none;
+background-color: rgb(162, 159, 159);
+
+   }
+
+.contact-btn{
+width: 25%; 
+padding: 15px 0px;  
+margin: 5px 10%;
+background-color: rgb(60, 72, 206);
+border: none;
+border-radius: 7px;
+cursor: pointer;
+}
+.contact-form{
+overflow: auto;
+margin-top: -35px;
+padding:  10px;
+}
+.line4{
+    width: 70px;
+    
+    margin: -5px  auto;
+    border-top: 2px solid #213ebf;
+
+
+ }
+ .line5{
+    width: 150px;
+    border-top: 2px solid #2a54b7;
+    margin: -5px  auto;
+ }
+ .contact section{
+
+
+ }
+ .footer-salah{
+    background-color: rgb(58, 54, 54);
+    width: 100%;
+    height: 200px;
+    position: relative;
+ }
+ .footer-icons{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+.footer-icons i{
+    font-size: 35px;
+    color: white;
+    margin: 5px 10px;
+}
+.footer-icons p{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* the end of footer */
+/* start of acons  */
+.icons-container{
+    background-color: rgb(168, 165, 165);
+    overflow: auto;
+}
+.icons-item{
+    float: left;
+    text-align: center;
+    width: 20%;
+    margin: 0px 2.5%;
+}
+.icons-item i{
+    color: rgba(13, 13, 13, 0.83);
+    font-size: 32;
+    margin-bottom: 10px;
+ 
+}
+.icons-item h4 ,p{
+    font-size: 26;
+}
